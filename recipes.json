@@ -26,6 +26,50 @@
       "Rest before serving."
     ]
   },
+    {
+    "id": "meatballs-beans-dinner",
+    "title": "Sausage meatballs, Leek, & Butterbeans with Romesco",
+    "image": "images/meatballs.png",
+    "cuisine": "british",
+    "protein": "sausages",
+    "meal": "dinner",
+    "carb": "beans",
+    "description": "One-pan roasted meatballs, leeks and tomatoes on a bed on romesco.",
+    "prepTime": "10 min",
+    "cookTime": "30 min",
+    "totalTime": "40 min",
+    "servings": "2-4",
+    "ingredients": [
+      "2 large leeks",
+      "800g Lincolnshire sausage",
+      "350g plum tomatoes",
+      "400g butter beans",
+      "20g flat leaf parsley",
+      "2 tsp oregano",
+      "olive oil",
+      "salt & pepper",
+      "4 red peppers",
+      "juice of 1 lemon",
+      "3 garlic cloves",
+      "50g sun-dried tomatoes",
+      "100g almonds",
+      "15g flat leaf parsley",
+      "1/4 cup extra virgin olive oil",
+      "1 tsp smoked paprika",
+      "2 tsp red wine vinegar",
+      "1 tsp salt",
+      "1 tsp chilli flakes"
+    ],
+    "steps": [
+      "Roast the peppers at 200°C until blackened and peel.",
+      "Chop the flat-leaf parsley.",
+      "Slice the leeks into 2cm thick circles. Form equally-sized balls with the sausage meat. Add a splash of oil to a deep oven tray and add the leeks, sausage, tomatoes and oregano with a touch of seasoning.",
+      "Decant all the ingredients for the romesco sauce into a food processor and blitz until moderately smooth. A few almond chunks are fine and welcome. If you can, let marinade in the fridge for ~30 minutes.",
+      "Put the tray with leeks, sausage, and tomatoes into the oven at 200°C. Cook for ~10 minutes, turning the sausage.",
+      "Add the butter beans, and a sprinkling of parsley, and give the tray a good shake. Back into the oven for ~15 minutes. If you haven’t browned the meat previously, sticking the tray on the top shelf for 5-10 minutes with occasionally turning can help. Once the meat is cooking, the tomatoes bursting open, and the leeks are soft, it’s ready for serving.",
+      "To serve, lay down a thick base of Romesco sauce, add tomatoes, leeks, and butter beans, and top with sausage and parsley. A garnish of lemon wedges or zest is a welcome addition."
+    ]
+  },
   {
     "id": "tofu-asian-lunch",
     "title": "Spicy Tofu Stir Fry",
