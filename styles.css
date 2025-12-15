@@ -39,3 +39,13 @@ select {
 .recipe-card small {
   margin: 0 10px 10px;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover h3 {
+  text-decoration: underline;
+}
+
