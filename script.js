@@ -1,24 +1,49 @@
+let allRecipes = [];
+
 fetch("recipes.json")
-  .then(response => response.json())
-  .then(recipes => {
-    window.allRecipes = recipes;
-    renderRecipes(recipes);
+  .then(res => res.json())
+  .then(data => {
+    allRecipes = data;
+
+    generateFilterOptions();
+    renderRecipes(allRecipes);
   });
 
-document.querySelectorAll("select").forEach(select => {
-  select.addEventListener("change", applyFilters);
-});
+// Generate unique options for each filter
+function generateFilterOptions() {
+  const proteins = [...new Set(allRecipes.map(r => r.protein))].sort();
+  const meals = [...new Set(allRecipes.map(r => r.meal))].sort();
+  const cuisines = [...new Set(allRecipes.map(r => r.cuisine))].sort();
 
+  populateSelect("proteinFilter", proteins, "Any Protein");
+  populateSelect("mealFilter", meals, "Any Meal");
+  populateSelect("cuisineFilter", cuisines, "Any Cuisine");
+}
+
+// Helper to populate a select element
+function populateSelect(id, values, defaultText) {
+  const select = document.getElementById(id);
+  select.innerHTML = `<option value="">${defaultText}</option>` +
+    values.map(v => `<option value="${v}">${v}</option>`).join("");
+
+  select.addEventListener("change", applyFilters);
+}
+
+// Filtering logic remains the same
 function applyFilters() {
   const protein = document.getElementById("proteinFilter").value;
   const meal = document.getElementById("mealFilter").value;
   const cuisine = document.getElementById("cuisineFilter").value;
 
-  const filtered = window.allRecipes.filter(r =>
+  const filtered = allRecipes.filter(r =>
     (protein === "" || r.protein === protein) &&
     (meal === "" || r.meal === meal) &&
     (cuisine === "" || r.cuisine === cuisine)
   );
+
+  renderRecipes(filtered);
+}
+
 
   renderRecipes(filtered);
 }
