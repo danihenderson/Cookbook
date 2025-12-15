@@ -1,0 +1,11 @@
+[
+  {
+    "id": "steak-dinner",
+    "title": "Garlic Butter Steak",
+    "image": "images/steak.jpg",
+    "cuisine": "American",
+    "protein": "Beef",
+    "meal": "Dinner",
+    "description": "Juicy pan-seared steak with garlic butter."
+  }
+]
