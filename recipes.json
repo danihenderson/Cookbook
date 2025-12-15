@@ -49,8 +49,8 @@
   },
     {
     "id": "desserts",
-    "title": "Chocolate Guiness Cake",
-    "image": "images/Chocolate-Guiness-Cake.jpg",
+    "title": "Chocolate Guinness Cake",
+    "image": "images/Chocolate-Guinness-Cake.jpg",
     "meal": "desserts",
     "prepTime": "20 min",
     "cookTime": "1 hour",
