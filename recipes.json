@@ -1,12 +1,13 @@
 [
   {
-    "id": "steak-dinner",
-    "title": "Garlic Butter Steak",
-    "image": "images/steak.jpg",
-    "cuisine": "American",
-    "protein": "Beef",
-    "meal": "Dinner",
-    "description": "Juicy pan-seared steak with garlic butter.",
+  "id": "steak-dinner",
+  "title": "Garlic Butter Steak",
+  "image": "images/steak.jpg",
+  "cuisine": "british",
+  "protein": "steak",
+  "meal": "dinner",
+  "carb": "potato",
+  "description": "Juicy pan-seared steak with garlic butter.",
     "ingredients": [
       "2 ribeye steaks",
       "Salt and pepper",
