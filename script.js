@@ -43,17 +43,28 @@ function renderRecipes(recipes) {
     const div = document.createElement("div");
     div.className = "recipe-card";
 
-    div.innerHTML = `
-  <a href="recipe.html?id=${r.id}">
-    <img src="${r.image}" alt="${r.title}">
-    <h3>${r.title}</h3>
-  </a>
-  <p>${r.description}</p>
-  <small>${r.cuisine} • ${r.protein} • ${r.meal}</small>
-`;
+    // Build optional times/servings line
+    let timesHTML = "";
+    if (r.prepTime || r.cookTime || r.servings) {
+      timesHTML = "<p>";
+      if (r.prepTime) timesHTML += `Prep: ${r.prepTime} `;
+      if (r.cookTime) timesHTML += `| Cook: ${r.cookTime} `;
+      if (r.servings) timesHTML += `| Serves: ${r.servings}`;
+      timesHTML += "</p>";
+    }
 
+    div.innerHTML = `
+      <a href="recipe.html?id=${r.id}">
+        <img src="${r.image}" alt="${r.title}">
+        <h3>${r.title}</h3>
+      </a>
+      <p>${r.description}</p>
+      <small>${r.cuisine} • ${r.protein} • ${r.meal}</small>
+      ${timesHTML}
+    `;
 
     container.appendChild(div);
   });
 }
+
 
