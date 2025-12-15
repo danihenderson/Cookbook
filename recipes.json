@@ -27,6 +27,41 @@
     ]
   },
     {
+    "id": "sausage-dinner",
+    "title": "Sausage, Sweet Potato & Bean Casserole",
+    "image": "images/Sausage-Sweet-Potato-Beans.jpg",
+    "cuisine": "british",
+    "protein": "sausages",
+    "meal": "dinner",
+    "carb": "potato",
+    "description": "A lovely one-pot winter warmer of sausages, sweet potato and beans finished with a gremolata to keep things fresh. Perfect for a cold weeknight dinner.",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "totalTime": "25 min",
+    "servings": 4,
+    "ingredients": [
+      "2 sweet potatoes",
+      "8 sausages",
+      "1 onion",
+      "2 garlic cloves",
+      "2 tbsp tomato puree",
+      "sprig of rosemary",
+      "240g cannellini beans",
+      "250ml water",
+      "15g parsley",
+      "1 lemon",
+      "olive oil"
+    ],
+    "steps": [
+      "Peel and dice the sweet potato into roughly 3cm cubes.",
+      "Place a large pan over a medium heat and add a drizzle of olive oil. Add the sausages and potatoes and cook for 5 mins until well coloured.",
+      "Reduce the heat to low, finely slice the onions and garlic and add along with the tomato puree and rosemary. Cook for another few mins until the onion softens.",
+      "Pour in the beans and the water. Pop a lid on the pan and cook for about 10 mins until the potatoes have softened.",
+      "Peel a few strips of the lemon zest using a vegetable peeler. Finely mince the lemon zest and the parsley and mix together to make a gremolata.",
+      "Plate up with sausages and beans and sprinkle over the gremolata and a drizzle of olive oil. Finish with a squeeze of the lemon juice."
+    ]
+  },
+    {
     "id": "meatballs-beans-dinner",
     "title": "Sausage meatballs, Leek, & Butterbeans with Romesco",
     "image": "images/meatballs2.png",
