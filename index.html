@@ -1,10 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>My Cookbook</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>🍳 My Cookbook</h1>
-  <p>My recipes will live here.</p>
+
+<h1>🍳 My Cookbook</h1>
+
+<div class="filters">
+  <select id="proteinFilter">
+    <option value="">Any Protein</option>
+    <option value="Beef">Beef</option>
+    <option value="Chicken">Chicken</option>
+    <option value="Fish">Fish</option>
+  </select>
+
+  <select id="mealFilter">
+    <option value="">Any Meal</option>
+    <option value="Dinner">Dinner</option>
+    <option value="Lunch">Lunch</option>
+  </select>
+
+  <select id="cuisineFilter">
+    <option value="">Any Cuisine</option>
+    <option value="American">American</option>
+    <option value="Italian">Italian</option>
+  </select>
+</div>
+
+<div id="recipes"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
+
