@@ -46,5 +46,45 @@
       "Add soy sauce and chili pepper.",
       "Serve hot over cooked rice."
     ]
+  },
+    {
+    "id": "chicken-greek-dinner",
+    "title": "One-pan Lemon Garlic Chicken and Potatoes",
+    "image": "images/steak.jpg",
+    "cuisine": "greek",
+    "protein": "chicken",
+    "meal": "dinner",
+    "carb": "potato",
+    "prepTime": "15 min",
+    "cookTime": "1 hour",
+    "totalTime": "1 hour 15 mins",
+    "servings": 6,
+    "ingredients": [
+      "1/2 cup (125 ml) olive oil",
+      "1 tbsp dried oregano",
+      "1 tbsp freshly minced garlic" ,
+      "Zest of 1 lemon, plus the juice of 2 lemons (you need ¼ cup/60 ml of lemon juice)",
+      "1 tbsp sweet paprika",
+      "1 tsp dijon mustard",
+      "1 tsp sugar",
+      "1½ tsp sea salt flakes",
+      "½ tsp freshly cracked black pepper",
+      "1.2 kg bone-in, skin-on chicken thighs",
+      "6 medium all-purpose potatoes, cut into wedges",
+      "½ cup (125 ml) chicken stock",
+      "1 lemon, sliced",
+      "1 jar olives",
+      "1 tbsp fresh oregano or parsley, to garnish",  
+      "Steamed greens or green salad, to serve",
+    ],
+    "steps": [
+      "Preheat the oven to 200°C.",
+      "In a large bowl, combine the olive oil, oregano, garlic, lemon zest and juice, sweet paprika, dijon mustard, sugar, salt and pepper. Add the chicken and toss to coat. Marinate for up to 24 hours or cook immediately.",
+      "Arrange the potatoes in an even layer in a large baking pan and top with the chicken. Scrape out any marinade left in the bowl and coat the potatoes with it, using your hands. Ensure the chicken cutlets are not overlapping",
+      "Add the chicken stock to the base of the pan.",
+      "Scatter the lemon slices around the pan on top of the potatoes only (avoid placing the lemon slices on the chicken as it stops the skin from browning).",
+      "Bake for 55–60 minutes or until the chicken is golden and cooked through, shuffling the potatoes to stop them burning and adding the olives at around the 30-minute mark."
+      "Sprinkle the chicken with fresh oregano or parsley and serve with your side of choice."
+    ]
   }
 ]
