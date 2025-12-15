@@ -29,24 +29,22 @@ function populateSelect(id, values, defaultText) {
   select.addEventListener("change", applyFilters);
 }
 
-// Filtering logic remains the same
 function applyFilters() {
-  const protein = document.getElementById("proteinFilter").value;
-  const meal = document.getElementById("mealFilter").value;
-  const cuisine = document.getElementById("cuisineFilter").value;
+  const protein = document.getElementById("proteinFilter").value.toLowerCase();
+  const meal = document.getElementById("mealFilter").value.toLowerCase();
+  const cuisine = document.getElementById("cuisineFilter").value.toLowerCase();
+  const carb = document.getElementById("carbFilter").value.toLowerCase();
 
   const filtered = allRecipes.filter(r =>
-    (protein === "" || r.protein === protein) &&
-    (meal === "" || r.meal === meal) &&
-    (cuisine === "" || r.cuisine === cuisine)
+    (protein === "" || r.protein.toLowerCase() === protein) &&
+    (meal === "" || r.meal.toLowerCase() === meal) &&
+    (cuisine === "" || r.cuisine.toLowerCase() === cuisine) &&
+    (carb === "" || (r.carb && r.carb.toLowerCase() === carb))
   );
 
   renderRecipes(filtered);
 }
 
-
-  renderRecipes(filtered);
-}
 
 function renderRecipes(recipes) {
   const container = document.getElementById("recipes");
