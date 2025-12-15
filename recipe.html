@@ -22,28 +22,38 @@
       renderRecipe(recipe);
     });
 
-  function renderRecipe(r) {
-    if (!r) {
-      document.getElementById("recipe").innerHTML = "<p>Recipe not found.</p>";
-      return;
-    }
-
-    document.getElementById("recipe").innerHTML = `
-      <h1>${r.title}</h1>
-      <img src="${r.image}" style="max-width:400px;">
-      <p><em>${r.cuisine} • ${r.protein} • ${r.meal}</em></p>
-
-      <h2>Ingredients</h2>
-      <ul>
-        ${r.ingredients.map(i => `<li>${i}</li>`).join("")}
-      </ul>
-
-      <h2>Steps</h2>
-      <ol>
-        ${r.steps.map(s => `<li>${s}</li>`).join("")}
-      </ol>
-    `;
+function renderRecipe(r) {
+  if (!r) {
+    document.getElementById("recipe").innerHTML = "<p>Recipe not found.</p>";
+    return;
   }
+
+  let timesHTML = "";
+  if (r.prepTime || r.cookTime || r.servings) {
+    timesHTML = "<p>";
+    if (r.prepTime) timesHTML += `⏱ Prep: ${r.prepTime} `;
+    if (r.cookTime) timesHTML += `| Cook: ${r.cookTime} `;
+    if (r.servings) timesHTML += `| Serves: ${r.servings}`;
+    timesHTML += "</p>";
+  }
+
+  document.getElementById("recipe").innerHTML = `
+    <h1>${r.title}</h1>
+    <img src="${r.image}" style="max-width:400px;">
+    <p><em>${r.cuisine} • ${r.protein} • ${r.meal}</em></p>
+    ${timesHTML}
+    <h2>Ingredients</h2>
+    <ul>
+      ${r.ingredients.map(i => `<li>${i}</li>`).join("")}
+    </ul>
+
+    <h2>Steps</h2>
+    <ol>
+      ${r.steps.map(s => `<li>${s}</li>`).join("")}
+    </ol>
+  `;
+}
+
 </script>
 
 </body>
