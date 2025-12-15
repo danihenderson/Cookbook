@@ -1,13 +1,13 @@
 [
   {
-  "id": "steak-dinner",
-  "title": "Garlic Butter Steak",
-  "image": "images/steak.jpg",
-  "cuisine": "British",
-  "protein": "Steak",
-  "meal": "Dinner",
-  "carb": "Potato",
-  "description": "Juicy pan-seared steak with garlic butter.",
+    "id": "steak-dinner",
+    "title": "Garlic Butter Steak",
+    "image": "images/steak.jpg",
+    "cuisine": "british",
+    "protein": "steak",
+    "meal": "dinner",
+    "carb": "potato",
+    "description": "Juicy pan-seared steak with garlic butter.",
     "ingredients": [
       "2 ribeye steaks",
       "Salt and pepper",
@@ -20,6 +20,27 @@
       "Sear steaks 3–4 minutes per side.",
       "Add butter and garlic, baste steaks.",
       "Rest before serving."
+    ]
+  },
+  {
+    "id": "tofu-asian-lunch",
+    "title": "Spicy Tofu Stir Fry",
+    "image": "images/tofu.jpg",
+    "cuisine": "asian",
+    "protein": "tofu",
+    "meal": "lunch",
+    "carb": "rice",
+    "description": "A quick and tasty spicy tofu stir fry.",
+    "ingredients": [
+      "200g tofu",
+      "2 cups cooked rice",
+      "1 tbsp soy sauce",
+      "1 chili pepper"
+    ],
+    "steps": [
+      "Cube the tofu and fry until golden.",
+      "Add soy sauce and chili pepper.",
+      "Serve hot over cooked rice."
     ]
   }
 ]
