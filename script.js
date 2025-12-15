@@ -32,11 +32,14 @@ function renderRecipes(recipes) {
     div.className = "recipe-card";
 
     div.innerHTML = `
-      <img src="${r.image}" alt="${r.title}">
-      <h3>${r.title}</h3>
-      <p>${r.description}</p>
-      <small>${r.cuisine} • ${r.protein} • ${r.meal}</small>
-    `;
+  <a href="recipe.html?id=${r.id}">
+    <img src="${r.image}" alt="${r.title}">
+    <h3>${r.title}</h3>
+  </a>
+  <p>${r.description}</p>
+  <small>${r.cuisine} • ${r.protein} • ${r.meal}</small>
+`;
+
 
     container.appendChild(div);
   });
