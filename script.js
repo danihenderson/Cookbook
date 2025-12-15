@@ -29,10 +29,16 @@ function renderRecipes(recipes) {
 
   recipes.forEach(r => {
     const div = document.createElement("div");
+    div.className = "recipe-card";
+
     div.innerHTML = `
+      <img src="${r.image}" alt="${r.title}">
       <h3>${r.title}</h3>
       <p>${r.description}</p>
+      <small>${r.cuisine} • ${r.protein} • ${r.meal}</small>
     `;
+
     container.appendChild(div);
   });
 }
+
