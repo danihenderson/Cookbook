@@ -4,43 +4,32 @@ fetch("recipes.json")
   .then(res => res.json())
   .then(data => {
     allRecipes = data;
-
-    generateFilterOptions();
     renderRecipes(allRecipes);
   });
 
-// Generate unique options for each filter
-function generateFilterOptions() {
-  const proteins = [...new Set(allRecipes.map(r => r.protein))].sort();
-  const meals = [...new Set(allRecipes.map(r => r.meal))].sort();
-  const cuisines = [...new Set(allRecipes.map(r => r.cuisine))].sort();
-
-  populateSelect("proteinFilter", proteins, "Any Protein");
-  populateSelect("mealFilter", meals, "Any Meal");
-  populateSelect("cuisineFilter", cuisines, "Any Cuisine");
-}
-
-// Helper to populate a select element
-function populateSelect(id, values, defaultText) {
-  const select = document.getElementById(id);
-  select.innerHTML = `<option value="">${defaultText}</option>` +
-    values.map(v => `<option value="${v}">${v}</option>`).join("");
-
-  select.addEventListener("change", applyFilters);
-}
+// Apply filters when dropdowns change
+document.getElementById("proteinFilter").addEventListener("change", applyFilters);
+document.getElementById("cuisineFilter").addEventListener("change", applyFilters);
+document.getElementById("mealFilter").addEventListener("change", applyFilters);
+document.getElementById("carbFilter").addEventListener("change", applyFilters);
 
 function applyFilters() {
-  const protein = document.getElementById("proteinFilter").value.toLowerCase();
-  const meal = document.getElementById("mealFilter").value.toLowerCase();
-  const cuisine = document.getElementById("cuisineFilter").value.toLowerCase();
-  const carb = document.getElementById("carbFilter").value.toLowerCase();
+  const protein = document.getElementById("proteinFilter").value.trim().toLowerCase();
+  const meal = document.getElementById("mealFilter").value.trim().toLowerCase();
+  const cuisine = document.getElementById("cuisineFilter").value.trim().toLowerCase();
+  const carb = document.getElementById("carbFilter").value.trim().toLowerCase();
 
-  const filtered = allRecipes.filter(r =>
-    (protein === "" || r.protein.toLowerCase() === protein) &&
-    (meal === "" || r.meal.toLowerCase() === meal) &&
-    (cuisine === "" || r.cuisine.toLowerCase() === cuisine) &&
-    (carb === "" || (r.carb && r.carb.toLowerCase() === carb))
-  );
+  const filtered = allRecipes.filter(r => {
+    const p = r.protein ? r.protein.trim().toLowerCase() : "";
+    const m = r.meal ? r.meal.trim().toLowerCase() : "";
+    const c = r.cuisine ? r.cuisine.trim().toLowerCase() : "";
+    const cb = r.carb ? r.carb.trim().toLowerCase() : "";
+
+    return (protein === "" || p === protein) &&
+           (meal === "" || m === meal) &&
+           (cuisine === "" || c === cuisine) &&
+           (carb === "" || cb === carb);
+  });
 
   renderRecipes(filtered);
 }
