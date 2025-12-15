@@ -8,6 +8,9 @@
     "meal": "dinner",
     "carb": "potato",
     "description": "Juicy pan-seared steak with garlic butter.",
+    "prepTime": "10 min",
+    "cookTime": "8 min",
+    "servings": 2,
     "ingredients": [
       "2 ribeye steaks",
       "Salt and pepper",
