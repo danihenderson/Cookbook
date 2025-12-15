@@ -48,6 +48,44 @@
     ]
   },
     {
+    "id": "desserts",
+    "title": "Chocolate Guiness Cake",
+    "image": "images/Chocolate-Guiness-Cake.jpg",
+    "meal": "desserts",
+    "prepTime": "20 min",
+    "cookTime": "1 hour",
+    "totalTime": "1 hour 20 mins",
+    "servings": 10-12,
+    "ingredients": [
+      "250ml (one cup) Guinness",
+      "250g butter",
+      "75g cocoa powder",
+      "400g caster sugar",
+      "150ml full fat sour cream",
+      "2 large eggs (not fridge cold)",
+      "1 tablespoon vanilla extract",
+      "275g plain flour",
+      "2 1/2 teaspoons bicarbonate of soda",
+      "2 teaspoons instant espresso powder (optional)"
+
+      "300g full fat cream cheese",
+      "150g icing sugar",
+      "1 teaspoon vanilla extract",
+      "125ml double cream"
+    ],
+    "steps": [
+      "Preheat the oven to 180°C. Grease and line a 23cm (9 inch) springform cake tin.",
+      "Pour the Guinness into a large, wide saucepan and add the butter. Melt slowly over a low heat, stirring occasionally.",
+      "As soon as the butter has melted, whisk in the cocoa powder and caster sugar.",
+      "In a medium jug or bowl, beat the sour cream, eggs and vanilla extract together. Pour this mixture into the pan of Guinness and melted butter and whisk well.",
+      "Sieve together the flour, bicarbonate of soda and instant espress powder, if using. Whisk the dry ingredients into the pan of wet ingredients. As soon as you have a smooth batter and no pockets of flour remain, stop whisking.",
+      "Pour the cake batter into the lined tin and bake for 45-60 minutes or until the cake has risen and a skewer inserted in the middle of the cake emerges with no wet batter",
+      "Place the cake tin on a wire cooling rack and let it cool completely in the tin.",
+      "To make the frosting, lightly whip the cream cheese until smooth, then sieve in half of the icing sugar. Beat until smooth, then add the remaining icing sugar and beat until smooth. Pour in the vanilla extract and double cream and beat until you have a light, smooth frosting.",
+      "To assemble the cake, carefully remove it from the tin and peel off the baking paper. Set the cake on a serving plate, then top with the cream cheese frosting, swirling the top with a small palette knife to make it look like the top of a pint of Guinness."
+    ]
+  },
+    {
     "id": "chicken-greek-dinner",
     "title": "One-pan Lemon Garlic Chicken and Potatoes",
     "image": "images/steak.jpg",
