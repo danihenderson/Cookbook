@@ -6,6 +6,19 @@
     "cuisine": "American",
     "protein": "Beef",
     "meal": "Dinner",
-    "description": "Juicy pan-seared steak with garlic butter."
+    "description": "Juicy pan-seared steak with garlic butter.",
+    "ingredients": [
+      "2 ribeye steaks",
+      "Salt and pepper",
+      "2 tbsp butter",
+      "2 cloves garlic"
+    ],
+    "steps": [
+      "Season steaks generously with salt and pepper.",
+      "Heat a pan over high heat.",
+      "Sear steaks 3–4 minutes per side.",
+      "Add butter and garlic, baste steaks.",
+      "Rest before serving."
+    ]
   }
 ]
