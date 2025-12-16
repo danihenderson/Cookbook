@@ -180,7 +180,7 @@
    {
     "id": "bagel-breakfast",
     "title": "Breakfast Bagel",
-    "image": "images/bagel.png",
+    "image": "images/bagel.PNG",
     "cuisine": "british",
     "meal": "breakfast",
     "carb": "bread",
@@ -196,7 +196,7 @@
      {
     "id": "banana-breakfast-bowl",
     "title": "Banana Breakfast Bowl",
-    "image": "images/breakfast-bowl.png",
+    "image": "images/breakfast-bowl.PNG",
     "meal": "breakfast",
     "description": "Breakfast bowl with banana, coconut flakes, peanut butter and granola.",
     "totalTime": "10 min",
