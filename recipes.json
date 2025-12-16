@@ -337,5 +337,31 @@
       "Bake for 55–60 minutes or until the chicken is golden and cooked through, shuffling the potatoes to stop them burning and adding the olives at around the 30-minute mark.",
       "Sprinkle the chicken with fresh oregano or parsley and serve with your side of choice."
     ]
+  },
+    {
+    "id": "flatbread-staples",
+    "title": "Quick flatbreads",
+    "image": "images/flatbread.jpg",
+    "meal": "staples",
+    "carb": "bread",
+    "description": "Whip up these speedy flatbreads for an Indian-style feast. They’re like a cheat’s version of naan bread, and are great for mopping up a curry.",
+    "prepTime": "15 min",
+    "cookTime": "5 min",
+    "totalTime": "20 min",
+    "servings": 8,
+    "ingredients": [
+      "300g self-raising flour",
+      "1/2 tsp baking powder",
+      "150g natural yogurt",
+      "1 tbsp vegetable oil",
+      "melted ghee or butter, for brushing",
+      "cumin seeds, chopped garlic cloves, chopped coriander or chopped chillies (optional)"
+    ],
+    "steps": [
+      "Combine the flour, baking powder, yogurt and oil with 1 tsp salt and 2 tbsp water, and bring together into a rough dough. Tip onto a lightly floured surface and knead for a few minutes until slightly smooth, then divide into four to eight pieces, depending on the size of flatbread you want.",
+      "Heat a heavy-based frying pan over a high heat. To make basic flatbreads, roll the dough pieces out on a lightly floured surface into rough ovals, then fry for 1-2 mins on each side until golden and slightly charred in spots. Alternatively, roll the dough pieces out, brush with a little melted ghee or butter, and scatter over the cumin seeds, garlic, coriander or chillies, if you like. Fold each piece of dough over on itself, then roll out again into a rough oval and cook in the same way.",
+      "Sear steaks 3–4 minutes per side.",
+      "Brush the flatbreads with a little melted butter or ghee, then serve."
+    ]
   }
 ]
