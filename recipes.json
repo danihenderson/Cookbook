@@ -53,6 +53,36 @@
     ]
   },
     {
+    "id": "halloumi-lunch",
+    "title": "Izzie Rugina Bulgar Wheat Halloumi Special",
+    "image": "images/iz-halloumi.jpg",
+    "protein": "halloumi",
+    "meal": "lunch",
+    "carb": "grains",
+    "totalTime": "1 hour",
+    "ingredients": [
+      "red onion",
+      "peppers",
+      "courgette",
+      "halloumi",
+      "bulgar wheat",
+      "sprouts",
+      "paprika",
+      "cumin",
+      "salt & pepper",
+      "tahini",
+      "lemon",
+      "olive oil"
+    ],
+    "steps": [
+      "Chop red onion, peppers, courgette and put in a roasting tray a coat with a decent amount of cumin, paprika, salt and pepper.",
+      "Roast in oven for 25 mins before adding the halloumi and cooking until well roasted.",
+      "Cook sprouts on same or separate tray with seasonings until crispy.",
+      "Cook bulgar wheat.",
+      "Optional tahini dressing with tahini, lemon, salt, pepper, olive oil, and water."
+    ]
+  },
+    {
     "id": "sausage-dinner",
     "title": "Sausage, Sweet Potato & Bean Casserole",
     "image": "images/Sausage-Sweet-Potato-Beans.jpg",
