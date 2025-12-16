@@ -177,6 +177,36 @@
       "To serve, lay down a thick base of Romesco sauce, add tomatoes, leeks, and butter beans, and top with sausage and parsley. A garnish of lemon wedges or zest is a welcome addition."
     ]
   },
+   {
+    "id": "bagel-breakfast",
+    "title": "Breakfast Bagel",
+    "image": "images/bagel.png",
+    "cuisine": "british",
+    "meal": "breakfast",
+    "carb": "bread",
+    "description": "Bagel with jalapeno garlic chive cream cheese, avo, egg and sriracha.",
+    "totalTime": "10 min",
+    "ingredients": [
+      ""
+    ],
+    "steps": [
+      ""
+    ]
+  },
+     {
+    "id": "banana-breakfast-bowl",
+    "title": "Banana Breakfast Bowl",
+    "image": "images/breakfast-bowl.png",
+    "meal": "breakfast",
+    "description": "Breakfast bowl with banana, coconut flakes, peanut butter and granola.",
+    "totalTime": "10 min",
+    "ingredients": [
+      ""
+    ],
+    "steps": [
+      ""
+    ]
+  },
     {
     "id": "desserts",
     "title": "Chocolate Guinness Cake",
