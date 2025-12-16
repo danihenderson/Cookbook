@@ -27,6 +27,32 @@
     ]
   },
     {
+    "id": "salmon-crispy-potato-dinner",
+    "title": "Salmon with Crispy Potatoes and Avocado Crema",
+    "image": "images/salmon-avo.png",
+    "cuisine": "british",
+    "protein": "fish",
+    "meal": "dinner",
+    "carb": "potato",
+    "description": "",
+    "totalTime": "1 hour",
+    "ingredients": [
+      "salmon",
+      "potatoes",
+      "lettuce",
+      "cucumber",
+      "red onion",
+      "avocado",
+      "coriander",
+      "lime",
+      "jalepenos",
+      "yoghurt/creme fraiche"
+    ],
+    "steps": [
+      ""
+    ]
+  },
+    {
     "id": "sausage-dinner",
     "title": "Sausage, Sweet Potato & Bean Casserole",
     "image": "images/Sausage-Sweet-Potato-Beans.jpg",
