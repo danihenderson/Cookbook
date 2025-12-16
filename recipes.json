@@ -105,27 +105,6 @@
       "To serve, lay down a thick base of Romesco sauce, add tomatoes, leeks, and butter beans, and top with sausage and parsley. A garnish of lemon wedges or zest is a welcome addition."
     ]
   },
-  {
-    "id": "tofu-asian-lunch",
-    "title": "Spicy Tofu Stir Fry",
-    "image": "images/tofu.jpg",
-    "cuisine": "asian",
-    "protein": "tofu",
-    "meal": "lunch",
-    "carb": "rice",
-    "description": "A quick and tasty spicy tofu stir fry.",
-    "ingredients": [
-      "200g tofu",
-      "2 cups cooked rice",
-      "1 tbsp soy sauce",
-      "1 chili pepper"
-    ],
-    "steps": [
-      "Cube the tofu and fry until golden.",
-      "Add soy sauce and chili pepper.",
-      "Serve hot over cooked rice."
-    ]
-  },
     {
     "id": "desserts",
     "title": "Chocolate Guinness Cake",
