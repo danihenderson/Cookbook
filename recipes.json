@@ -117,6 +117,43 @@
       "Plate up with sausages and beans and sprinkle over the gremolata and a drizzle of olive oil. Finish with a squeeze of the lemon juice."
     ]
   },
+    {
+    "id": "chicken-meatball-dinner",
+    "title": "Emily English Chicken Tarragon Ricotta Meatball Al Forno",
+    "image": "images/chicken-meatballs.jpg",
+    "protein": "chicken",
+    "meal": "dinner",
+    "carb": "pasta",
+    "totalTime": "30 min",
+    "servings": 4,
+    "ingredients": [
+      "500g 5% fat chicken mince (or any lean mince you like)",
+      "1 small courgette, grated",
+      "1 heaped tbsp sundried tomatoes, finely chopped",
+      "40g wholegrain breadcrumbs",
+      "1 small red onion",
+      "1 garlic clove, finely minced",
+      "1 tbsp fresh tarragon, chopped",
+      "2 tbsp ricotta",
+      "zest of 1/2 lemon",
+      "salt & pepper",
+      "For the orzo: 200g orzo",
+      "1 x 400g tin high-quality cherry tomatoes",
+      "1 chicken stock cube",
+      "pinch of chilli flakes",
+      "1 clove garlic, minced",
+      "2 big handfuls of kale, roughly torn",
+      "extra ricotta and parmesan to serve"
+    ],
+    "steps": [
+      "Blitz the onion and garlic together in a food processor until finely chopped. Add the courgette and sundried tomatoes and pulse again, or grate if preferred.",
+      "In a large bowl, mix the chicken mince, processed vegetables, breadcrumbs, tarragon, ricotta, lemon zest, salt and pepper. Shape into small balls with wet hands and chill in the fridge for 10-15 minutes to firm up.",
+      "Heat a large non-stick frying pan with a little olive oil and brown the meatballs on all sides - they dont need to be cooked through at this stage - then remove them to a plate.",
+      "To the same pan add the minced garlic and chilli flakes, cook for 30 seconds, add a splash of water to deglaze, then stir in the orzo. Add the tin of cherry tomatoes, crumble in the stock cube, and add 400ml water.",
+      "Simmer gently, stirring often to prevent sticking, until the orzo is al dente (10-12 mins). Add a splash more water if needed if it's getting too dry.",
+      "Stir the kale through the orzo to wilt, press the browned meatballs back into the orzo, top with a few dollops of ricotta and a generous grating of parmesan, then place under a hot grill for 5 mins until golden and bubbling and the meatballs are cooked through."
+    ]
+  },
   {
     "id": "dense-bean-salad",
     "title": "Grilled Chipotle Chicken and Corn Dense Bean Salad",
