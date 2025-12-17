@@ -58,7 +58,7 @@
     "image": "images/dahl.jpg",
     "cuisine": "indian",
     "meal": "dinner",
-    "carb": "grains",
+    "carb": "grains and pulses",
     "description": "Classic dahl make with speedy raita, pickled onions and a garlic naan.",
     "totalTime": "40 min",
     "servings": 4,
@@ -116,6 +116,15 @@
       "Cook bulgar wheat.",
       "Optional tahini dressing with tahini, lemon, salt, pepper, olive oil, and water."
     ]
+  },
+   {
+    "id": "turkish-eggs",
+    "title": "Turkish Eggs",
+    "image": "images/turkish-eggs.jpg",
+    "protein": "eggs",
+    "meal": "breakfast",
+    "carb": "bread",
+    "totalTime": "10 min"
   },
     {
     "id": "sausage-dinner",
