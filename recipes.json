@@ -53,6 +53,41 @@
     ]
   },
     {
+    "id": "dahl-dinner",
+    "title": "Daily Dahl",
+    "image": "images/dahl.jpg",
+    "cuisine": "indian",
+    "meal": "dinner",
+    "carb": "grains",
+    "description": "Classic dahl make with speedy raita, pickled onions and a garlic naan.",
+    "totalTime": "40 min",
+    "servings": 4,
+    "ingredients": [
+      "225g red lentils",
+      "2 tbsp rapeseed oil",
+      "optional: 12 peppercorns",
+      "optional: 4 cloves",
+      "1 onion, thinly sliced",
+      "4 cloves of garlic, crushed",
+      "6cm ginger, peeled and finely grated",
+      "1/2 tsp chilli powder",
+      "1/2 tsp ground coriander",
+      "1/2 tsp ground turmeric",
+      "1 tsp salt",
+      "300g tinned plum tomatoes"
+    ],
+    "steps": [
+      "In a sieve, rinse the lentils until the water runs clear, then drain and put into a deep, lidded saucepan.",
+      "Add 600ml cold water, bring to the boil over a medium to high heat, then cover with the lid and simmer gently for 10-15 mins without stirring, until thoroughly cooked.
+      "Meanwhile, put thew oil into another deep, lidded saucepan on a medium heat. When it's hot, add the peppercorns and cloves and stir fry for ~1 min until you can smell them. Then add the onion and cook for 8-10 mins until golden.",
+      "Add the garlic and ginger and stir-fry for a further 4 mins before adding the chilli powder, coriander, turmeric, and salt.",
+      "Stir well, then add the tinned tomatoes. If they're whole, pour them out with one hand and crush them with your other hand to break them up before they hit the pan. Cover, turn the heat down and simmer for ~8 mins.",
+      "The tomatoes should be looking darker and more paste-like now, with little tomato juice running from them. Add the lentils using a straining spoon, then pour in any remaining water they were boiling in, a little at a time, until you get a good consistency.",
+      "Finally, cover the pan with the lid again and cook on a low heat for a further 10 mins.",
+      "Taste and adjust the seasoning as you like. Serve with chapatis, yoghurt, pickled onions and some coriander."
+    ]
+  },
+    {
     "id": "halloumi-lunch",
     "title": "Izzie Rugina Bulgar Wheat Halloumi Special",
     "image": "images/iz-halloumi.jpg",
