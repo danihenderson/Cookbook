@@ -409,6 +409,35 @@
     ]
   },
     {
+    "id": "cookies-of-dreams",
+    "title": "Dad's cookies of dreams",
+    "image": "images/cookies.jpg",
+    "meal": "desserts",
+    "totalTime": "2 hours",
+    "servings": 14,
+    "ingredients": [
+      "230g cold butter",
+      "100g caster sugar",
+      "160g soft light brown sugar",
+      "200g caramelised white chocolate; chopped. https://youtu.be/9AH0GT-ollk (needs white choc with high fat content (30%+)). One min in microwave. Stir. 15 secs. Stir. Repeat until thickened and colour is caramelised. Approx. 2.5 – 3 min cooking time in total. Pour into greaseproof paper lined mould to set.",
+      "300g white chocolate chips",
+      "400g plain flour",
+      "100g self raising flour",
+      "1 tsp salt",
+      "2 tsp baking powder",
+      "2 whole eggs",
+      "1 egg yolk",
+      "1/2 tsp Vanilla Extract"
+    ],
+    "steps": [
+      "Add ingredients in order. Mixing together between additions but not creaming. Make a dough lump.",
+      "Make 14 x 125g balls. Don't over-work.",
+      "Freeze them for 90 mins to overnight.",
+      "Cook at 180°C fan for 14 mins. Make sure preheated baking stone in place to crisp bottoms. If not golden, cook 1 min more.",
+      "Rest before serving."
+    ]
+  },
+    {
     "id": "chicken-greek-dinner",
     "title": "One-pan Lemon Garlic Chicken and Potatoes",
     "image": "images/steak.jpg",
