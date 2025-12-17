@@ -52,6 +52,26 @@
       ""
     ]
   },
+   {
+    "id": "spring-caesar-dinner",
+    "title": "Spring Chicken Caesar Salad",
+    "image": "images/spring-chicken-caesar.jpg",
+    "cuisine": "british",
+    "protein": "chicken",
+    "meal": "dinner",
+    "carb": "bread",
+    "description": "Literally the most delicious salad to have ever graced your table",
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "",
+    "servings": ,
+    "ingredients": [
+      ""
+    ],
+    "steps": [
+      ""
+    ]
+  },
     {
     "id": "dahl-dinner",
     "title": "Daily Dahl",
