@@ -1,5 +1,8 @@
 let allRecipes = [];
 
+/* ----------------------
+   Load recipes
+----------------------- */
 fetch("recipes.json")
   .then(res => res.json())
   .then(data => {
@@ -7,60 +10,87 @@ fetch("recipes.json")
     renderRecipes(allRecipes);
   });
 
-// Apply filters when dropdowns change
+/* ----------------------
+   Filter listeners
+----------------------- */
 document.getElementById("proteinFilter").addEventListener("change", applyFilters);
 document.getElementById("cuisineFilter").addEventListener("change", applyFilters);
 document.getElementById("mealFilter").addEventListener("change", applyFilters);
 document.getElementById("carbFilter").addEventListener("change", applyFilters);
 
+/* ----------------------
+   Helpers
+----------------------- */
+
+// Normalize values so filters work with:
+// - missing fields
+// - single strings
+// - arrays of strings
+function normalize(value) {
+  if (!value) return [];
+  if (Array.isArray(value)) {
+    return value.map(v => v.trim().toLowerCase());
+  }
+  return [value.trim().toLowerCase()];
+}
+
+/* ----------------------
+   Apply filters
+----------------------- */
 function applyFilters() {
-  const protein = document.getElementById("proteinFilter").value.trim().toLowerCase();
-  const meal = document.getElementById("mealFilter").value.trim().toLowerCase();
-  const cuisine = document.getElementById("cuisineFilter").value.trim().toLowerCase();
-  const carb = document.getElementById("carbFilter").value.trim().toLowerCase();
+  const protein = document.getElementById("proteinFilter").value.toLowerCase();
+  const cuisine = document.getElementById("cuisineFilter").value.toLowerCase();
+  const meal = document.getElementById("mealFilter").value.toLowerCase();
+  const carb = document.getElementById("carbFilter").value.toLowerCase();
 
   const filtered = allRecipes.filter(r => {
-    const p = r.protein ? r.protein.trim().toLowerCase() : "";
-    const m = r.meal ? r.meal.trim().toLowerCase() : "";
-    const c = r.cuisine ? r.cuisine.trim().toLowerCase() : "";
-    const cb = r.carb ? r.carb.trim().toLowerCase() : "";
+    const proteins = normalize(r.protein);
+    const cuisines = normalize(r.cuisine);
+    const meals = normalize(r.meal);
+    const carbs = normalize(r.carb);
 
-    return (protein === "" || p === protein) &&
-           (meal === "" || m === meal) &&
-           (cuisine === "" || c === cuisine) &&
-           (carb === "" || cb === carb);
+    return (
+      (protein === "" || proteins.includes(protein)) &&
+      (cuisine === "" || cuisines.includes(cuisine)) &&
+      (meal === "" || meals.includes(meal)) &&
+      (carb === "" || carbs.includes(carb))
+    );
   });
 
   renderRecipes(filtered);
 }
 
-
+/* ----------------------
+   Render recipe cards
+----------------------- */
 function renderRecipes(recipes) {
   const container = document.getElementById("recipes");
   container.innerHTML = "";
 
   recipes.forEach(r => {
-    const div = document.createElement("div");
-    div.className = "recipe-card";
+    const card = document.createElement("div");
+    card.className = "recipe-card";
 
-    // Optional total time line
-    let timeHTML = "";
-    if (r.totalTime) {
-      timeHTML = `<p class="recipe-time">⏱ ${r.totalTime}</p>`;
-    }
+    const descriptionHTML = r.description
+      ? `<p>${r.description}</p>`
+      : "";
 
-    div.innerHTML = `
+    const timeHTML = r.totalTime
+      ? `<p class="recipe-time">⏱ ${r.totalTime}</p>`
+      : "";
+
+    card.innerHTML = `
       <a href="recipe.html?id=${r.id}">
         <div class="image-wrapper">
           <img src="${r.image}" alt="${r.title}">
         </div>
         <h3>${r.title}</h3>
       </a>
-      <p>${r.description}</p>
+      ${descriptionHTML}
       ${timeHTML}
     `;
 
-    container.appendChild(div);
+    container.appendChild(card);
   });
 }
 
