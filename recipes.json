@@ -52,6 +52,40 @@
       ""
     ]
   },
+    {
+    "id": "pasta-primavera-dinner",
+    "title": "Pasta Primavera",
+    "image": "images/pasta-primavera.jpg",
+    "meal": ["dinner"],
+    "carb": ["pasta"],
+    "description": "A glossy green number to get a spring in your step (sorry). Asparagus, peas, pistachios and basil tossed through silky spaghetti, so simple and fresh.",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "totalTime": "25 min",
+    "servings": 4,
+    "ingredients": [
+      "1 garlic clove",
+      "pistachios",
+      "parmesan",
+      "peas",
+      "basil",
+      "olive oil",
+      "asparagus spears",
+      "lemon",
+      "spaghetti",
+      "chilli flakes",
+      "Salt"
+    ],
+    "steps": [
+      "Blend together garlic, pistachios, parmesan, peas, basil, salt, olive oil, water.",
+      "Season sauce with a squeeze of lemon and some salt.",
+      "Trim the asparagus and remove the woody ends. Slice it lengthways.",
+      "Cook the spaghetti, adding the asparagus spears and peas a few minutes before it's ready.",
+      "Drain the pasta, reserving some pasta water.",
+      "Add the sauce along with some reserved water, a squeeze of lemon and zest.",
+      "Serve with a handul of parmeson, sprinkle of chilli flakes and drizzle of olive oil."
+    ]
+  },
    {
     "id": "spring-caesar-dinner",
     "title": "Spring Chicken Caesar Salad",
