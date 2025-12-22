@@ -58,7 +58,7 @@
     "image": "images/spring-chicken-caesar.jpg",
     "cuisine": "british",
     "protein": "chicken",
-    "meal": ["dinner", "lunch],
+    "meal": ["dinner", "lunch"],
     "carb": "bread",
     "description": "Literally the most delicious salad to have ever graced your table",
     "prepTime": "",
