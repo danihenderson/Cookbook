@@ -1,10 +1,14 @@
 #site-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 28px;
+  font-family: 'Fredoka One', 'Inter', sans-serif;
+  font-size: 2rem;         /* prominent but not huge */
+  font-weight: 600;         /* bold but not overwhelming */
+  color: #2c2c2c;           /* nice dark grey */
   text-align: center;
   margin: 15px 0;
-  color: #fff; /* white text */
-  text-shadow: 2px 2px #000; /* adds some retro contrast */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;                 /* space between egg and text */
 }
 
 
