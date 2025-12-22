@@ -270,6 +270,20 @@
     ]
   },
     {
+    "id": "seedy-breakfast",
+    "title": "Seedy Breakfast",
+    "image": "images/seedy-breakfast.png",
+    "meal": "breakfast",
+    "description": "",
+    "totalTime": "15 min",
+    "ingredients": [
+      ""
+    ],
+    "steps": [
+      ""
+    ]
+  },
+    {
     "id": "tikka-masala-dinner",
     "title": "Sheet-Pan Tikka Masala",
     "image": "images/tikka-masala.jpg",
