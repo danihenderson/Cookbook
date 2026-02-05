@@ -95,8 +95,6 @@
     "meal": ["dinner"],
     "carb": ["rice"],
     "description": "",
-    "prepTime": "",
-    "cookTime": "",
     "totalTime": "20 mins",
     "servings": "",
     "ingredients": [
