@@ -86,6 +86,39 @@
       "Serve with a handul of parmeson, sprinkle of chilli flakes and drizzle of olive oil."
     ]
   },
+    {
+    "id": "poke-bowl",
+    "title": "Poke Bowl",
+    "image": "images/poke.jpg",
+    "cuisine": ["asian"],
+    "protein": ["fish","chicken"],
+    "meal": ["dinner"],
+    "carb": ["rice"],
+    "description": "",
+    "prepTime": "",
+    "cookTime": "",
+    "totalTime": "20 mins",
+    "servings":"",
+    "ingredients": [
+      "Rice",
+      "Salmon",
+      "Garlic Cloves",
+      "Ginger",
+      "Cucumber",
+      "Spring Onion",
+      "Avocado"
+      "Soy Sauce",
+      "Crispy Chilli Oil",
+      "Optional: 
+        Sesame Seeds
+        Crispy Fried Onions"
+    ],
+    "steps": [
+      "Marinate salmon in ginger, soy, and garlic and fry.",
+      "Cook rice with a splash of sesame oil.",
+      "Chop veg and assemble bowl."
+    ]
+  },
    {
     "id": "spring-caesar-dinner",
     "title": "Spring Chicken Caesar Salad",
