@@ -27,6 +27,70 @@
     ]
   },
     {
+    "id": "chicken-orzo-soup",
+    "title": "Millicent's Glorious One-Pot Chicken, Orzo and Kale Soup with Creamy White Beans",
+    "image": "images/chicken-kale-soup.jpg",
+    "cuisine": ["greek"],
+    "protein": ["chicken"],
+    "meal": ["dinner"],
+    "carb": ["beans","pasta"],
+    "description": "Quick and comforting soup yum yum.",
+    "prepTime": "15 min",
+    "cookTime": "35 min",
+    "totalTime": "40 min",
+    "servings": 6,
+    "ingredients": [
+      "0.5kg boneless chicken cut into bite-sized pieces",
+      "2 medium yellow onions, chopped",
+      "3 garlic cloves, minced",
+      "2 medium yellow onions, chopped",
+      "1/2 tsp red pepper flakes, plus more to taste",
+      "3/4 tsp ground coriander",
+      "1/2 teaspoon ground cumin",
+      "1/2 tsp dried rosemary",
+      "2 cans white beans, drained and rinsed",
+      "8 cups low-sodium chicken or vegetable broth",
+      "225g kale stemmed and cut into 1/2 inch strips",
+      "1 Parmesan rind about 2-inches",
+      "1 to 2 tsps fresh lemon juice",
+      "Handful of orzo"
+    ],
+    "steps": [
+      "Set a large soup pot over medium heat and add about 2 tbsps of olive oil. You want to coat the bottom in a thin layer of oil. Once the oil begins to shimmer, add the chicken and season with salt and pepper. Cook, stirring regularly, until browned, about 5 to 7 minutes. Transfer the chicken to a plate and set it aside.",
+      "In the same pot set over medium heat, add the onions and saute for about 4 minutes, tossing regularly until softened (add a little more olive oil if the pot gets dry). Add the garlic, red pepper flakes, coriander, cumin, and rosemary. Stir until fragrant, 30 seconds to 1 minute.",
+      "Add the beans, and use the back of a wooden spoon to mash about half of them on the side of the pot. Return the chicken to the pot, then add the broth, kale, and Parmesan rind.",
+      "Raise the heat and bring to a boil for 5 minutes. Skim any foam that bubbles up on top, then turn the heat to low. Partially cover the pot, leaving a small opening for the soup to breathe. Cook for 25 minutes, adding a handful of orzo 10 mins before the end, or until everything is cooked through and the kale softens to your liking.",
+      "Remove the cheese rind and stir in the lemon juice. Taste and adjust seasonings, adding more of any of the spices used to your liking. Transfer to serving bowls and add a drizzle of extra virgin olive oil and sprinkling of cheddar cheese."
+    ]
+  },
+    {
+    "id": "chicken-and-lentils",
+    "title": "Millicent Dancey Chicken and lentils",
+    "image": "images/chickenandlentils.jpg",
+    "cuisine": ["british"],
+    "protein": ["chicken"],
+    "meal": ["dinner"],
+    "carb": ["grains and pulses"],
+    "description": "Hearty, healthy and delicious.",
+    "totalTime": "1 hr 30 min",
+    "servings": 4,
+    "ingredients": [
+      "1 large onion, sliced",
+      "4 garlic cloves, chopped",
+      "Leaves from 2 sprigs of rosemary",
+      "200g red lentils, well rinsed",
+      "500ml chicken or veg stock",
+      "8 skin-on, bone-in, freerange chicken thighs, or 1 medium chicken (about 1.75kg), jointed into 6/8 pieces",
+      "Flat-leaf parsley, chopped, to finish"
+    ],
+    "steps": [
+      "Preheat the oven to 180°C. Choose a flameproof casserole dish or a wide, ovenproof pan that will hold all the chicken pieces snugly but comfortably..",
+      "Put the casserole on a medium-low heat. Add the oil, then the onion and cook, stirring regularly, for 6 to 8 minutes until it begins to soften. Add the garlic, rosemary and some salt and pepper. Cook gently for a further 5 minutes, then stir in the lentils and stock.",
+      "Season the chicken thighs and place skin side up in the casserole. You want most of the chicken skin to remain exposed above the liquid in the dish so it can brown in the oven. Bring to a simmer on the hob, then transfer to the oven and bake, uncovered, for 1 hour. Check that the chicken is cooked right through and the lentils are soft. If not, return to the oven for 10 to 15 minutes and test again. Skim off any excess fat from the surface.",
+      "Taste the lentilly liquor and add more salt or pepper if needed. Serve, scattered with chopped parsley, just as it is or with steamed broccoli or spring greens on the side.."
+    ]
+  },
+    {
     "id": "salmon-crispy-potato-dinner",
     "title": "Salmon with Crispy Potatoes and Avocado Crema",
     "image": "images/salmon-avo.png",
