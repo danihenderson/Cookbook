@@ -63,6 +63,40 @@
       "Remove the cheese rind and stir in the lemon juice. Taste and adjust seasonings, adding more of any of the spices used to your liking. Transfer to serving bowls and add a drizzle of extra virgin olive oil and sprinkling of cheddar cheese."
     ]
   },
+
+      {
+    "id": "leeky-beans",
+    "title": "Leeky Beans with sausages",
+    "image": "images/leeky-beans.jpg",
+    "cuisine": ["british"],
+    "protein": ["sausages"],
+    "meal": ["dinner","lunch"],
+    "carb": ["beans"],
+    "description": "Quick and delicious with any meaty accompaniment.",
+    "prepTime": "5 min",
+    "cookTime": "20 min",
+    "totalTime": "25 min",
+    "ingredients": [
+      "tin of white beans, drained and rinsed",
+      "leeks",
+      "garlic cloves",
+      "thyme",
+      "lemon juice",
+      "parsley",
+      "dijon mustard",
+      "white wine (if you want)",
+      "salt & pepper"
+    ],
+    "steps": [
+      "Add olive oil to a pan and lightly fry the garlic til fragrant.",
+      "At the same time, cook sausages in a separate pan.",
+      "Add leeks to garlic and fry until soft.",
+      "Add the beans, smushing a few to create a sort of sauce.",
+      "Add a dash of water or stock or creme fraiche to make is a little creamier and wetter if desired.",
+      "Season with thyme, lemon juice, salt, pepper, a tsp of dijon."
+      "Serve up with some parsley sprinkled over the top."
+    ]
+  },
     {
     "id": "chicken-and-lentils",
     "title": "Millicent Dancey Chicken and lentils",
