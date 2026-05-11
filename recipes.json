@@ -1,29 +1,38 @@
 [
   {
-    "id": "steak-dinner",
-    "title": "Garlic Butter Steak",
-    "image": "images/steak.jpg",
+    "id": "chimichurri-chicken-sandwich",
+    "title": "Chimichurri Chicken Sandwich",
+    "image": "chimichurri-chicken-sandwich.jpg",
     "cuisine": ["british"],
-    "protein": ["steak"],
-    "meal": ["dinner"],
-    "carb": ["potato"],
-    "description": "Juicy pan-seared steak with garlic butter.",
-    "prepTime": "10 min",
-    "cookTime": "8 min",
-    "totalTime": "18 min",
-    "servings": 2,
+    "protein": ["chicken"],
+    "meal": ["lunch"],
+    "carb": ["bread"],
+    "description": "",
+    "totalTime": "20 min",
+    "servings": 4,
     "ingredients": [
-      "2 ribeye steaks",
-      "Salt and pepper",
-      "2 tbsp butter",
-      "2 cloves garlic"
+      "15g Fresh Flat-Leaf Parsley",
+      "5g Fresh Oregano Leaves",
+      "5g Fresh Mint Leaves",
+      "1 Red Chilli",
+      "½ Small Red Onion",
+      "2 Garlic Cloves",
+      "2 Tbsp Red Wine Vinegar",
+      "1 Tsp Caster Sugar",
+      "8 Skin-On Chicken Thigh Fillets",
+      "4 Individual Ciabatta Loaves",
+      "2 Avocados",
+      "60g Rocket",
+      "4 Jarred Roasted Red Peppers"
     ],
     "steps": [
-      "Season steaks generously with salt and pepper.",
-      "Heat a pan over high heat.",
-      "Sear steaks 3–4 minutes per side.",
-      "Add butter and garlic, baste steaks.",
-      "Rest before serving."
+      "Finely chop the parsley, oregano, mint, red chilli and red onion and mince the garlic.",
+      "Transfer to a mixing bowl and add the red wine vinegar, sugar and 6 tablespoons of olive oil. Season with salt and pepper and stir to combine.",
+      "Season the chicken thigh fillets with salt and pepper. Place them in a cold frying pan, skin-side down.",
+      "Heat the frying pan over medium heat and cook the chicken undisturbed for 5 mins, or until the skin is deep golden brown. Flip and cook for a further 4 mins or until cooked through then transfer to a plate to rest.",
+      "Heat your oven grill to high. Halve the ciabatta rolls and toast under the grill.",
+      "Peel the avocados and thinly slice them.",
+      "To assemble, place a heap of rocket on the base of each sandwich. Add half an avocado and 1 red pepper and top with 2 chicken thigh fillets. Generously spoon over some of the chimichurri then finish with the top of the ciabatta. Tuck in and enjoy!"
     ]
   },
     {
