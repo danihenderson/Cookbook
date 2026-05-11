@@ -2,7 +2,7 @@
   {
     "id": "chimichurri-chicken-sandwich",
     "title": "Chimichurri Chicken Sandwich",
-    "image": "images/chimichurri-chicken-sandwich.jpg"",
+    "image": "images/chimichurri-chicken-sandwich.jpg",
     "cuisine": ["british"],
     "protein": ["chicken"],
     "meal": ["lunch"],
