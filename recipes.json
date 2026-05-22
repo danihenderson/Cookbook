@@ -72,6 +72,24 @@
       "Remove the cheese rind and stir in the lemon juice. Taste and adjust seasonings, adding more of any of the spices used to your liking. Transfer to serving bowls and add a drizzle of extra virgin olive oil and sprinkling of cheddar cheese."
     ]
   },
+      {
+    "id": "marry-me-chickpeas",
+    "title": "Marry Me Chickpeas",
+    "image": "images/marry-me-chickpeas.png",
+    "cuisine": ["British"],
+    "protein": ["chicken"],
+    "meal": ["dinner","lunch"],
+    "carb": ["beans"],
+    "description": "",
+    "totalTime": "30 min",
+    "servings": 4,
+    "ingredients": [
+      "XX"
+    ],
+    "steps": [
+      "XX"
+    ]
+  },
     {
     "id": "leeky-beans",
     "title": "Leeky Beans with sausages",
