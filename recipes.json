@@ -73,6 +73,37 @@
     ]
   },
       {
+    "id": "soba-noodle-salad",
+    "title": "Soba noodles with lime, cardamom and avocado",
+    "image": "images/soba-noodle-salad.jpg",
+    "cuisine": ["english"],
+    "protein": [""],
+    "meal": ["sides"],
+    "carb": ["pasta"],
+    "description": "",
+    "totalTime": "20 min",
+    "servings": 4,
+    "ingredients": [
+      "200g buckwheat noodles (substitute green tea soba)",
+      "12 green cardamom pods",
+      "30g basil leaves, picked, roughly chopped",
+      "30g coriander leaves, picked, roughly chopped",
+      "70g pistachio kernels, roughly chopped",
+      "3 limes: finely grate the zest of 2 to get 1 tsp, then juice 2 to get 1/4 cup (60ml); slice the final lime into 4 wedges to serve",
+      "1/4 cup (60ml) groundnut oil (substitute grapeseed oil)",
+      "1 green chilli, deseeded and finely sliced",
+      "2 ripe avocados, cut into 1/2-cm slices",
+      "1/4 tsp nigella seeds or Urfa chilli flakes (optional), to sprinkle"
+    ],
+    "steps": [
+      "Cook the noodles according to the instructions on the packet (they vary from brand to brand). Once cooked, refresh under cold running water and set aside in a colander to drain well.",
+      "With the flat side of a knife, crush the cardamom pods to open them up. Scrape the seeds out into a pestle and mortar and discard the outer husks. Crush the seeds – you should get about 1/2 tsp – and place in a large bowl with the noodles. ",
+      "Add the basil, coriander, pistachios, lime zest and juice, oil, chilli, avocado and 1/2 tsp salt.",
+      "Mix everything together well, then divide among four bowls. Spoon any avocado, nuts and herbs left in the bowl on top.",
+      "Sprinkle over the nigella seeds or chilli flakes, if using, and serve with a wedge of lime alongside."
+    ]
+  },
+      {
     "id": "marry-me-chickpeas",
     "title": "Marry Me Chickpeas",
     "image": "images/marry-me-chickpeas.png",
@@ -609,7 +640,7 @@
     ]
   },
     {
-    "id": "desserts",
+    "id": "guinness_cake",
     "title": "Chocolate Guinness Cake",
     "image": "images/Chocolate-Guinness-Cake.jpg",
     "meal": ["desserts"],
@@ -648,7 +679,7 @@
     ]
   },
     {
-    "id": "desserts",
+    "id": "pistachio_loaf",
     "title": "Pistachio and Blackberry Jam Olive Oil Loaf",
     "image": "images/yoghurt-loaf.jpeg",
     "meal": ["desserts"],
